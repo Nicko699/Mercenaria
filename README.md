@@ -54,11 +54,11 @@ Introduce el nombre, precio y cantidad de productos según lo solicite.
 
 El sistema calculará automáticamente:
 
-Subtotal
+-Subtotal
 
-Descuentos aplicados
+-Descuentos aplicados
 
-Costo de envío
+-Costo de envío
 
-Total final de la compra
+-Total final de la compra
 
