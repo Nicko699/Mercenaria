@@ -1,62 +1,77 @@
-# 🛒 Mercenaria
+# 🛒 Sistema de Compras Mercenaria
 
-**Mercenaria** es una aplicación en **Java** diseñada para calcular el **costo total de una compra**, incluyendo envíos y descuentos en función de la cantidad de productos adquiridos. 
-Este proyecto fue desarrollado para practicar lógica de programación, manejo de datos y estructuras básicas en Java.
+> Sistema simple de cálculo de costos de compra con descuentos y envío
+
+## 📋 Descripción
+
+Aplicación de consola en Java que calcula el costo total de una compra aplicando descuentos por monto y tarifas de envío según la cantidad de productos.
+
+## 🎯 Funcionalidades
+
+- ✅ Validación de entrada de datos
+- 💰 Cálculo de descuentos por monto:
+  - 5% para compras entre $100 y $300
+  - 10% para compras mayores a $300
+- 📦 Cálculo de costo de envío:
+  - $10 USD para 5-15 productos
+  - Gratis para más de 15 productos
+- 🚫 Restricción de compra mínima de 5 productos
+
+## 📊 Tabla de Descuentos
+
+| Monto de compra | Descuento |
+|-----------------|-----------|
+| < $100 | Sin descuento |
+| $100 - $300 | 5% |
+| > $300 | 10% |
+
+## 📦 Tabla de Envío
+
+| Cantidad de productos | Costo de envío |
+|-----------------------|----------------|
+| < 5 | No permitido |
+| 5 - 15 | $10 USD |
+| > 15 | Gratis |
+
+## 🚀 Cómo usar
+
+### Requisitos
+- Java JDK 8 o superior
+
+### Ejecución
+
+```bash
+# Compilar
+javac mercenaria/Mercenaria.java
+
+# Ejecutar
+java mercenaria.Mercenaria
+```
+
+### Ejemplo de uso
+
+```
+Ingrese la cantidad de productos
+> 10
+
+Ingrese el costo total
+> 250
+
+El costo del envío es de $10USD
+Usted posee un descuento del 5% sobre el total. El nuevo monto a pagar es de: $247.0USD
+```
+
+## 🛠️ Tecnologías
+
+- Java SE
+- Scanner para entrada de datos
+- Manejo de excepciones
+
+## 👤 Autor
+
+**Nicko699**
+- GitHub: [@Nicko699](https://github.com/Nicko699)
 
 ---
 
-## 📌 Descripción
-
-Con esta aplicación puedes:
-- Ingresar diferentes productos.
-- Definir cantidades por producto.
-- Calcular el subtotal total.
-- Aplicar descuentos según reglas definidas.
-- Calcular el costo de envío.
-- Obtener el total final de la compra.
-
-La aplicación funciona en una **interfaz de consola**, ideal para quien está aprendiendo Java y quiere practicar lógica aplicada a problemas reales. :contentReference[oaicite:2]{index=2}
-
----
-
-## 🧰 Tecnologías utilizadas
-
-- **Java** – Lenguaje de programación principal.
-- **Consola** – Interfaz de usuario basada en texto. :contentReference[oaicite:3]{index=3}
-
----
-
-### 📋 Requisitos
-
-Antes de ejecutar el proyecto necesitas:
-
-- **Java JDK 8 o superior**.
-- Un IDE o editor de código compatible con Java (como IntelliJ IDEA, Eclipse o NetBeans). :contentReference[oaicite:4]{index=4}
-
-### 📂 Pasos de ejecución
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/Nicko699/Mercenaria.git
-Abre el proyecto en tu IDE.
-
-Compila el código.
-
-Ejecuta la clase que contiene el método main. 
-GitHub
-
-🧑‍💻 Uso
-Ejecuta el programa desde la consola.
-
-Introduce el nombre, precio y cantidad de productos según lo solicite.
-
-El sistema calculará automáticamente:
-
--Subtotal
-
--Descuentos aplicados
-
--Costo de envío
-
--Total final de la compra
-
+💡 **Proyecto educativo para practicar condicionales y manejo de entrada/salida en Java**
