@@ -1,7 +1,6 @@
 # 🛒 Mercenaria
 
-**Mercenaria** es una aplicación en **Java** diseñada para calcular el **costo total de una compra**, incluyendo envíos y descuentos en función de la cantidad de productos adquiridos. :contentReference[oaicite:1]{index=1}
-
+**Mercenaria** es una aplicación en **Java** diseñada para calcular el **costo total de una compra**, incluyendo envíos y descuentos en función de la cantidad de productos adquiridos. 
 Este proyecto fue desarrollado para practicar lógica de programación, manejo de datos y estructuras básicas en Java.
 
 ---
