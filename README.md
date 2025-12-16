@@ -26,8 +26,6 @@ La aplicación funciona en una **interfaz de consola**, ideal para quien está a
 
 ---
 
-## ▶️ Requisitos y ejecución
-
 ### 📋 Requisitos
 
 Antes de ejecutar el proyecto necesitas:
